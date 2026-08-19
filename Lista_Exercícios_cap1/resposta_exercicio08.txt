@@ -1,0 +1,21 @@
+Questão 08. Explique detalhadamente o comportamento do programa abaixo quando executado no
+console. Apresente qual será a saída exata gerada pelas sequências de escape utilizadas no formato de
+controle:
+
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+printf("\n\t\"Primeiro programa\"");
+system("PAUSE");
+return 0;
+}
+
+Resposta  :
+
+        "Primeiro programa" Pressione qualquer tecla para continuar...
+
+explicando :
+    Basicamente o compilador vai verificar as bibliotecas exportadas, vai verificar o tipo do main e o conteúdo dentro dele, após isso ele vai ler a função printf, vai ver  o '\n' e o 't' e vai fazer conforme eu fiz acima.
+    Ele também vai verificar que o \" vai colocar aspas duplas no texto.
+     Depois ele vai dá um pause no sistema e vai exibir a mensagem acima. Depois ele retornará zero(0) para encerrar o programa.

@@ -1,6 +1,6 @@
-main() <---- main sem chaves e sem biblioteca pré- declarada. Sem tipo declarado
+main() <----  sem biblioteca pré- declarada. Sem tipo declarado
 {
-int a=1; b=2; c=3: <---- dois pontos invés de ;
+int a=1; b=2; c=3: <---- Deveriam ser separados por vírgula. No último deveria ser ;
 printf("0s números são: %d%d%d\n, a, b, c, d); <---- não fechou aspas e colocou um elemento extra. 0 invés de O
 system("pause"); <---- system sem função pré- declarada
                 <---- ausência de return.

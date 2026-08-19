@@ -1,0 +1,16 @@
+o código não está de acordo com o padrão ANSI C. Está faltando as biliotecas e o tipo do main
+main()
+{
+printf("Linguagem C");
+system("pause");
+}
+    Versão corrigida : 
+
+    #include <stdio.h>
+    #include <stdlib.h>
+
+    int main(){
+        printf("Linguagem C");
+        system("pause");
+        return 0;
+    }

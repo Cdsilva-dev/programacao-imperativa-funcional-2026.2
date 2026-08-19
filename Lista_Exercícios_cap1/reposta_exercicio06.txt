@@ -1,0 +1,17 @@
+main() <---- main sem chaves e sem biblioteca pré- declarada. Sem tipo declarado
+{
+int a=1; b=2; c=3: <---- dois pontos invés de ;
+printf("0s números são: %d%d%d\n, a, b, c, d); <---- não fechou aspas e colocou um elemento extra. 0 invés de O
+system("pause"); <---- system sem função pré- declarada
+                <---- ausência de return.
+} 
+
+    Versão corrigida :
+    #include <stdio.h>
+    #include <stdlib.h>
+    int main (){
+        int a = 1 , b = 2, c = 3; 
+        printf("Os números são : %d %d %d\n" , a,b,c);
+        system("pause");
+        return 0;
+    }

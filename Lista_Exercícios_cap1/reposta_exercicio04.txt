@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <stdlib.h>; <---- Aqui tem um ponto e vírgula fora da sintaxe
+int Main{} <---- Letra 'M' maiúscula e ausência de parênteses, chaves sem nenhum conteúdo dentro.
+
+( <---- Parênteses sem nexo
+printf( Existem %d semanas no ano.,52); <---- Texto sem aspas
+cout << endl; <---- Sintaxe de outra linguagem
+system("PAUSE");
+return 0;
+) <---- Parênteses sem sentido, deveriam ser chaves

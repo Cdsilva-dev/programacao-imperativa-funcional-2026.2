@@ -1,0 +1,23 @@
+Questão 11. Para cada um dos valores constantes descritos na tabela abaixo, indique a classificação
+correta (por exemplo: constante inteira decimal, constante de ponto flutuante, constante de caractere,
+constante string ou sequência de escape) e o tipo de dado base correspondente em C (como char, int,
+float, double):
+
+Constante Classificação (Tipo de Constante) Tipo Base em C
+
+Const.|Classificação|  Tipo Primitivo
+\r     [ sequência de escape ] [ char ]
+2130   [  Constante inteira decimal] [ int ]
+-123   [ Constante inteira decimal ] [ int ]
+33.28   [ Constante de ponto flutuante ] [ double ]
+0XFA   [ Constante hexadecimal ] [ int ]
+0101   [ constante octal ] [ int ]
+2.0e30 [ constante de ponto flutuante ] [ double]
+\xDC   [ sequencia de escape hexadecimal ] [ char ]
+'\"'  [ constante de caractere ] [ char ]
+'\\'  [constante de caractere     ] [ char ]
+'F'  [constante de caractere ] [ char ]
+0    [ constante decimal ] [ int ]
+'\0'  [ Const de caractere ] [ char ]
+"F"    [ constantede string ] [ string  ou char[]]
+-4567.89 [ constante de ponto flutuante ] [ double ]

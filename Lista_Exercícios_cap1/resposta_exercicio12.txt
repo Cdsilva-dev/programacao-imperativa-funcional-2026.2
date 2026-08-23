@@ -1,0 +1,13 @@
+Questão 12. A declaração de variáveis define o tipo e o identificador de cada espaço reservado na
+memória. Analise cada uma das declarações na tabela a seguir, preencha o seu status (Correto ou
+Incorreto) e, caso seja incorreto, justifique detalhadamente o erro sintático:
+
+Instrução Status (C/I) Justificativa Teórica
+a) int a; [ Correto  ] [ a declaração está correta ]
+b) float b; [ Correto] [ a declaração está correta ]
+c) double float c; [ Incorreto ] [ Não se mistura dois tipos primitivos ]
+d) unsigned char d; [ Correto  ] [ a declaração está correta ]
+e) unsigned e; [ Correto  ] [ a declaração está correta ]
+f) long float f; [ Incorreto  ] [ Não Existe long float]
+g) long g; [ Correto  ] [ a declaração está correta ]
+h) long double h; [ Correto  ] [ a declaração está correta ]

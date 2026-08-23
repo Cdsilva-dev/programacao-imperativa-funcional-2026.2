@@ -11,4 +11,5 @@ int main(){
     printf("\ncadernos%12.2f\n" , cadernos); 
     printf("\ncanetas%12.2f\n", canetas); 
     printf("\nfitas%12.2f\n", fitas); 
+    return 0;
 }

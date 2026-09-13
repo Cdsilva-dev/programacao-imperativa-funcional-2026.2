@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(){
-    float numero;
+    int numero;
     printf("digite um número:  ");
-    scanf("%f", &numero);
-    printf("O quadrado é : %.2f \n  valor decimal :  %.2f ", (numero*numero), numero/10  );
+    scanf("%d", &numero);
+    printf("O quadrado é : %d \n  valor decimal :  %.2f ", (numero*numero), numero/10.0  );
 
 
     return 0;

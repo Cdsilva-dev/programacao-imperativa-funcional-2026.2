@@ -52,8 +52,9 @@ return 0;
 O operador ternário avalia a expressão lógica (media >= 7.0). Se verdadeira, retorna o primeiro valor ('A'); se falsa, retorna o segundo ('R'). Para media = 6.8, a condição é falsa (6.8 >= 7.0), logo a variável situacao armazenará o caractere 'R'.
 
 ### b) Reescrita em estrutura if-else
+#include <stdio.h>
+int main(){
 
-```c
 media = (nota1 + nota2) / 2.0;
 
 if (media >= 7.0) {
@@ -61,7 +62,8 @@ if (media >= 7.0) {
 } else {
     situacao = 'R';
 }
-```
+return 0;
+}
 
 ### c) Limitações do operador ternário
 O operador ternário não pode substituir qualquer estrutura if-else. Ele foi projetado como uma expressão simples para retornar valores. Suas limitações incluem:
